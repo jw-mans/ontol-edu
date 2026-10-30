@@ -1,0 +1,79 @@
+svg.uml-diagram {
+  background: #ffffff;
+}
+
+.uml-class-title {
+  fill: url(#uml-yellow-title-gradient);
+}
+
+.uml-class-section,
+.uml-enum-body {
+  fill: url(#uml-yellow-section-gradient);
+}
+
+.uml-class-outline,
+.uml-class-title,
+.uml-class-section,
+.uml-enum-body,
+.uml-enum-title,
+.uml-template-box {
+  stroke: #d7a43c;
+  stroke-width: 2;
+}
+
+.uml-class-title-text,
+.uml-feature-text,
+.uml-template-text,
+.uml-edge-label,
+.uml-multiplicity {
+  fill: #000000;
+}
+
+.uml-kind-badge-c {
+  fill: #f0c955;
+  stroke: #9b6b18;
+}
+
+.uml-kind-badge-e {
+  fill: #f29b86;
+  stroke: #9d3f2f;
+}
+
+.uml-kind-badge-i {
+  fill: #c9d7ff;
+  stroke: #4a61a8;
+}
+
+.uml-kind-badge-d {
+  fill: #d9c7f2;
+  stroke: #6f4aa8;
+}
+
+.uml-kind-badge-text {
+  fill: #000000;
+}
+
+.uml-attribute-bullet {
+  fill: #ffffff;
+  stroke: #3aa76d;
+}
+
+.uml-operation-bullet {
+  fill: #3aa76d;
+  stroke: #2a7d50;
+}
+
+.uml-edge-line {
+  stroke: #000000;
+  stroke-width: 1;
+}
+
+.uml-marker-filled {
+  fill: #000000;
+  stroke: #000000;
+}
+
+.uml-marker-hollow {
+  fill: #ffffff;
+  stroke: #000000;
+}
